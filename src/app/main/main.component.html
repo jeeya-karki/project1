@@ -1,0 +1,25 @@
+<p>{{title}}</p>
+
+Num1 : <input type="number" #num1><br>
+Num2 : <input type="number" #num2><br>
+        <input type="button" value="mul" (click)="multiple(num1,num2)">
+        <input type="reset" value="clear">
+
+<p>Mul:{{ans}}</p><br>   <br>
+
+<p>{{d}}</p>
+Num1 : <input type="number" #divide><br>
+Num2 : <input type="number" #divider><br>
+        <input type="button" value="Div" (click)="Division(divide,divider)">
+        <input type="reset" value="clear">
+<p>Div:{{answer}}</p>
+
+
+<h4>{{msg}}</h4>
+Num1 : <input type="number" #no1><br>
+Num2 : <input type="number" #no2><br>
+        <input type="button" value="click" (click)="addition(no1,no2)">
+        <input type="button" value="click" (click)="subtraction(no1,no2)">
+        <input type="reset" value="clear">
+<p [innerHTML]="a"></p>
+

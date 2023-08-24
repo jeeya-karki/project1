@@ -1,0 +1,32 @@
+<p>header1 works!</p>
+<form>
+  <table>
+    <tr>
+      <th>Enployee_id</th>
+      <td><input type="number" name="e_id" [(ngModel)]="e_id"></td>
+    </tr>
+    <tr>
+      <th>Enployee_name</th>
+      <td><input type="text" name="e_name" [(ngModel)]="e_name"></td>
+    </tr>
+    <tr>
+      <th>Enployee_salary</th>
+      <td><input type="number" name="e_salary" [(ngModel)]="e_salary"></td>
+    </tr>
+    <tr>
+      <th>Enployee_Department</th>
+      <td><input type="text" name="e_department" [(ngModel)]="e_department"></td>
+    </tr>
+    <tr>
+      <th>Enployee_Experience</th>
+      <td><input type="number" name="e-experience" [(ngModel)]="e_experience"></td>
+    </tr>
+    <tr>
+      <td><input type="submit" value="save"></td>
+      <td><input type="reset" value="clear"></td>
+    </tr>
+  </table>
+</form>
+
+Employee name is {{e_name}} and its employee id is {{e_id}},<br>
+The employee_salary is {{e_salary}} ,he/she is belong to {{e_department}} and his/her experience is {{e_experience}}.

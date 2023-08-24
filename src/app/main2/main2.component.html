@@ -1,0 +1,29 @@
+<H1>{{ twoway_databinding}}</H1>
+<form>
+
+  <table>
+    <tr>
+      <th>Product_ID</th>
+      <td><input type="number" name="p_id" [(ngModel)]="p_id"></td>
+    </tr>
+    <tr>
+      <th>Product_Name</th>
+      <td><input type="text" name="p_name"  [(ngModel)]="p_name"></td>
+    </tr>
+    <tr>
+      <th>Product_Quantity</th>
+      <td><input type="number" name="p_quantity"  [(ngModel)]="p_quantity"></td>
+    </tr>
+    <tr>
+      <th>Product_Rate</th>
+      <td><input type="number" name="p_rate"  [(ngModel)]="p_rate"></td>
+    </tr>
+    <tr >
+      <th colspan="2"><input type="submit">
+        <input type="reset"></th>
+    </tr>
+  </table>
+</form>
+Your product is {{p_name}}.
+Your product_id is {{p_id}}, its quantity is {{p_quantity}} and {{p_rate}}
+

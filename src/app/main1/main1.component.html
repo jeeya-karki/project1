@@ -1,0 +1,37 @@
+<p>main1 works!</p>
+<h1>{{t}}</h1>
+<form #productformRef="ngForm" (ngSubmit)="viewdata(productformRef)" >
+  <table>
+    <tr>
+      <th>Product_ID</th>
+      <td><input type="number" name="p_id" ngModel></td>
+    </tr>
+    <tr>
+      <th>Product_Name</th>
+      <td><input type="text" name="p_name" ngModel></td>
+    </tr>
+    <tr>
+      <th>Product_Quantity</th>
+      <td><input type="number" name="p_quantity" ngModel></td>
+    </tr>
+    <tr>
+      <th>Product_Rate</th>
+      <td><input type="number" name="p_rate" ngModel></td>
+    </tr>
+    <tr >
+      <th colspan="2"><input type="submit">
+      <input type="reset"></th>
+    </tr>
+
+  </table>
+</form>
+
+
+<h1>PRODUCT DATA</h1>
+<ol>
+  <li>Product_ID: {{product.p_id}}</li>
+  <li>Product_Name: {{product.p_name}}</li>
+  <li> Product_Quantity:{{product.p_quantity}}</li>
+  <li>Product_Rate:{{product.p_rate}}</li>
+<!--  <li> Status : {{student.status}}</li>-->
+</ol>

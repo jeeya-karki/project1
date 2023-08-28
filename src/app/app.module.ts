@@ -11,6 +11,8 @@ import {FormsModule, ReactiveFormsModule} from "@angular/forms";
 import { Main2Component } from './main2/main2.component';
 import { Header1Component } from './header1/header1.component';
 import { ModelDrivenFormComponent } from './model-driven-form/model-driven-form.component';
+import { StructureDirectiveNgifComponent } from './structure-directive1/structure-directive-ngif.component';
+import { StructureDriven2Component } from './structure-directive2/structure-driven2.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { ModelDrivenFormComponent } from './model-driven-form/model-driven-form.
     Main1Component,
     Main2Component,
     Header1Component,
-    ModelDrivenFormComponent
+    ModelDrivenFormComponent,
+    StructureDirectiveNgifComponent,
+    StructureDriven2Component
   ],
     imports: [
         BrowserModule,

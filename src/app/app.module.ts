@@ -13,6 +13,10 @@ import { Header1Component } from './header1/header1.component';
 import { ModelDrivenFormComponent } from './model-driven-form/model-driven-form.component';
 import { StructureDirectiveNgifComponent } from './structure-directive1/structure-directive-ngif.component';
 import { StructureDriven2Component } from './structure-directive2/structure-driven2.component';
+import { EmployeeSDComponent } from './employee-sd/employee-sd.component';
+import { HWProjectComponent } from './hw-project/hw-project.component';
+import { ProductListComponent } from './product-list/product-list.component';
+import { ProductFormComponent } from './product-form/product-form.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +30,11 @@ import { StructureDriven2Component } from './structure-directive2/structure-driv
     Header1Component,
     ModelDrivenFormComponent,
     StructureDirectiveNgifComponent,
-    StructureDriven2Component
+    StructureDriven2Component,
+    EmployeeSDComponent,
+    HWProjectComponent,
+    ProductListComponent,
+    ProductFormComponent
   ],
     imports: [
         BrowserModule,
